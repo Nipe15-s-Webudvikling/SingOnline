@@ -1,0 +1,120 @@
+body{
+    background-color: black;
+    color: rgb(187, 183, 183);
+    font-family: 'Karla';
+    font-weight: 600;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+h1 {
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center items vertically */
+}
+
+.sing{
+    color: white;
+    font-family: 'Karla';
+    font-weight: 600;
+    margin-left: 10px; /* Add some space between the SVG and "SING" */
+    font-size: 36px; /* Adjust font size as needed */
+}
+.online{
+    
+    color: green;
+    font-family: 'Karla';
+    font-weight: 600;
+    font-size: 36px; /* Adjust font size as needed */
+    font-weight: normal;
+}
+.musik{
+    color: white;
+    text-align: center;
+    
+}
+.velkommen{
+    font-weight: 900;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+}
+.start-text{
+    text-align: center;
+    max-width: 600px; 
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.section-main {
+    background-color: #252525;
+    border-radius: 16px;
+    margin: 3rem;
+}
+
+.section-main h2 {
+    padding: 2rem 0rem 0rem 2rem;
+    color: white;
+}
+
+#songs-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 5;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 1rem;
+}
+
+.song{
+    display: flex;
+    flex-direction: row;
+    border-radius: 16px;
+    background-color: green;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.song p {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+
+.footer-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #252525;
+    padding: 1rem;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+
+.footer-main li {
+    list-style: none;
+    text-align: center;
+}
+.singOnline-footer{
+    font-size: 2.4rem;
+    font-weight: 900;
+    color: green;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #252525;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0.5rem;
+}
